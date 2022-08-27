@@ -1,0 +1,110 @@
+.site-header {
+    padding: 25px 0;
+}
+.site-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-header__box {
+    display: flex;
+    align-items: center;
+}
+.site-header__logo-link {
+    display: inline-block;
+    margin-right: 42px;
+}
+.site-header__lang {
+    margin-right: 77px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+.site-header__mini-box{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin-right: 6px;
+    background-image: url("../images/ru.svg");
+}
+.site-header__mini-box-uz{
+    display: inline-block;
+    margin-right: 6px;
+    width: 23px;
+    height: 23px;
+    background-image: url("../images/uz.svg");
+}
+.site-header__option-Ru{
+    
+}
+.site-header__option-Uz{
+    
+}
+.site-header__sitenav {
+}
+.sitenav {
+}
+.sitenav__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+.sitenav__item {
+    
+}
+.sitenav__item:nth-child(1){
+    margin-right: 96px;
+}
+.sitenav__item:nth-child(2){
+    margin-right: 95px;
+}
+.sitenav__item:nth-child(3){
+    margin-right: 85px;
+}
+.sitenav__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    
+    color: #FFFFFF;
+    
+}
+.sitenav__link--contact {
+}
+.sitenav__mini-box{
+    background: radial-gradient(91.96% 3991.7% at 8.04% 17.65%, #E7AA19 0%, #CB6D9C 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+}
+.site-header__btn-box {
+}
+.site-header__btn-open {
+    padding: 22px 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #FF8924;
+}
+.site-header__btn {
+    margin-left: 20px;
+    padding: 25px 35px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    
+    background: linear-gradient(87.05deg, #DC6B30 17.99%, #E4864F 49.64%, #FFBE82 72.7%, #E49031 93.02%);
+    /* свечение */
+    
+    box-shadow: 0px 3px 49px -3px rgba(226, 128, 72, 0.76), inset 0px -4px 0px #8F4119;
+    border-radius: 20px;
+    border: transparent;
+}
